@@ -1,7 +1,6 @@
-﻿#include <iostream>
-
-#define _USE_MATH_DEFINES// allow math constants
+﻿#define _USE_MATH_DEFINES// allow math constants
 #include <math.h>// M_PI
+#include <iostream>
 
 int main() {
     // 1. Ask cylinder's radius
@@ -32,8 +31,6 @@ int main() {
     double cylinder_side_area = 2 * M_PI * cylinder_height * cylinder_radius;
     double cylinder_base_area = M_PI * cylinder_radius * cylinder_radius;
     double cylinder_area = cylinder_side_area + 2 * cylinder_base_area;
-
-    //std::cout << "cylinder_area = " << cylinder_area << std::endl;
 
     // 6. Calculate cone's area
     double cone_slant_height = std::sqrt(cone_height * cone_height + cone_radius * cone_radius);
