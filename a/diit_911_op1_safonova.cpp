@@ -41,9 +41,9 @@ int main() {
     // 7. Calculate whole area
     double whole_area = cylinder_area + cone_area;
     if (cone_radius > cylinder_radius) {
-        whole_area -= 2 * cone_base_area;// cone_area = cone_area - 2 * cone_base_area;
-    } else {
         whole_area -= 2 * cylinder_base_area;
+    } else {
+        whole_area -= 2 * cone_base_area;
     }
 
     // 8. Calculate cylinder's volume
