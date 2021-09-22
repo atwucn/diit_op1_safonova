@@ -26,8 +26,5 @@ int main() {
 	do {
 		std::cout << i << " | " << i * 2.54 << std::endl;
 		i++;
-
 	} while (i <= n);
-
-	system("pause");
 }
